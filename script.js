@@ -79,8 +79,8 @@ function spawnEnemy(){
 
 enemyInterval = setInterval(spawnEnemy,1750)
 
-
-addEventListener("click",(e)=>shootBullet(e))
+canvas.addEventListener("ontouchstart",(e)=>shootBullet(e))
+// addEventListener("click",(e)=>shootBullet(e))
 
 
 function shootBullet(e){
